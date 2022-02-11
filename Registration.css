@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #bbbbbb;
+}
+.contain p{
+    color: #32541;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.contain .tab{
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+.contain .tab td{
+    text-align: center;
+}
+.contain input[type="text"]{
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 50px;
+    width: auto;
+    background: transparent;
+    font-family: sans-serif;
+    font-size: 1.0em;
+    border-radius: 1%;
+}
+.contain button[type="submit"]{
+    width: 100%;
+    height: 30px;
+    font-family: serif;
+    font-size: 25px;
+    position: relative;
+    border-radius: 10%;
+    color: yellow;
+    cursor: pointer;
+    background: green;
+}
+.contain button[type="reset"]{
+    width: 100%;
+    height: 30px;
+    font-family: serif;
+    font-size: 25px;
+    position: relative;
+    border-radius: 10%;
+    color: yellow;
+    cursor: pointer;
+    background: green;
+}
+.contain button[type="submit"]:hover{
+    background: red;
+    color: whitesmoke;
+}
+.contain button[type="reset"]:hover{
+    background: red;
+    color: white;
+}

@@ -1,0 +1,35 @@
+body{
+    background: #f87;
+    justify-content: center;
+}
+.contain{
+    align-content: center;
+    border-top: "1px";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    backface-visibility: visible;
+    background: #abcdf3;
+}
+table{
+    table-layout: auto;
+    font-family: inherit;
+    font-size: 1.2em;
+    align-content: center;
+}
+table td{
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+.butt{
+    backface-visibility: visible;
+    background: #080;
+    border-radius: 5px;
+    margin: 10;
+    
+    
+    
+}
